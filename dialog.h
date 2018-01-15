@@ -13,6 +13,8 @@ class Dialog : public QDialog
 
 public:
   explicit Dialog(QWidget *parent = 0);
+  Dialog(const Dialog&) = delete;
+  Dialog& operator=(const Dialog&) = delete;
   ~Dialog();
 
 private:
