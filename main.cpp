@@ -1,8 +1,7 @@
 #include "dialog.h"
 #include <QApplication>
 
-THIS CAUSES AN ERROR
-
+/// A 'Hello Qt' program 
 int main(int argc, char *argv[])
 {
   QApplication a(argc, argv);
